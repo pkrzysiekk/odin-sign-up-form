@@ -26,7 +26,7 @@
             to help you realize your deepest dreams.Sign up now to get started. 
         </p>
         <div class="register">
-            <form>
+            <form id="form">
                 <legend>Let's do this!</legend>
                 <ul>
                     <li>
@@ -49,10 +49,18 @@
                         <label for="password">PASSWORD</label>
                         <input type="password" id="password">
                     </li>
+                    <li>
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm">
+                    </li>
 
                 </ul>
             </form>
         </div>
+        <right-bottom>
+            <button type="submit" form="form">Create Account</button>
+            <p>Already have an account?</p>
+        </right-bottom>
     </right-container>
 </body>
 </html>
