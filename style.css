@@ -67,7 +67,7 @@ aside{
 left-container{
     flex-grow: 1;
     display: flex;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 right-container{
     background-color: #F9FAFB		;
